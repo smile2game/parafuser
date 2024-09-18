@@ -1,4 +1,5 @@
 # 🚀Parallel Inference and traing Diffusion model
+*Read this in [Chinese](README_CN.md).*
 
 This repository serves as a review of parallel inference and training for diffusion models (both UNet and Transformer backbones), using my custom methods alongside other open-source repositories.
 
@@ -6,7 +7,7 @@ I have tested all open-source methods for parallel inference and training of dif
 
 Additionally, based on these foundations, I developed my own parallelization solutions and extended support for more models.
 
-## structure
+## ⚙️ Structure
 ```bash
 .
 ├── docs
@@ -16,5 +17,14 @@ Additionally, based on these foundations, I developed my own parallelization sol
 ├── scripts #bash for quick start
 ├── thirdparty
 └── train
+```
+## 🛠️ Prerequisites
+```bash
+pip install distrifuser
+```
 
+## 🐼 Usage Example
+
+```bash 
+sh scripts/run_distrifuser_sdxl.py
 ```
